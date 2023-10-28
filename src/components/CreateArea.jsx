@@ -17,7 +17,7 @@ function CreateArea(props) {
 
 
   function submitNote(event) {
-    props.onAdd(note);
+    props.onAdd(inputNote);
     // Clear the Create Area.
     setInputNotes({
       title: "",
